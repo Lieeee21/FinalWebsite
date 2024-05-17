@@ -260,28 +260,101 @@ a:nth-child(5){
 /*Menu*/
 #Menu{
     width: 100%;
-    height: 100vh;
+    height: 430vh;
     padding-top: 70px;
 }
 #Menu .content6{
-
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+#Menu .content6 .menu1{
+    color: black;
+    font-family: 'myFont1', sans-serif;
 }
 #Menu .content6 h3{
     padding-left: 150px;
     font-family: 'myFont1', sans-serif;
     color: tomato;
     font-size: 80px;
-
     line-height: .9;
+
 }
 #Menu .content6 ul{
     margin-left: 415px;
     text-align: justify;
     width: 500px;
-    background-color: rgb(243, 186, 120);
+    background-color: rgb(243, 186, 120);   
+}
+#Menu hr{
+    height: 5px;
+    color: black;
+    background-color: black;
+    margin-left: 150px;
+    margin-right: 150px;
+    opacity: 1000;
+}
+#Menu .Hd{
+    margin: 70px;
+    color: B50606;
+    font-family: 'myFont1', sans-serif;
+    text-align: center;
+    text-shadow: 0px 0px 1px black;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+#Menu .mystyle2{
+    box-shadow: 0px 0px 15px black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 0px;
+    margin-left: 100x;
+    margin-right: 100px;
+}
+#Menu .mystyle3{
+    box-shadow: 0px 0px 15px black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#Menu .section1{
+    margin-top: 20px;
+}
+#Menu .content7 h3{
+    background-color: B50606;
+    width: 80%;
+    color: white;
+    font-family: 'myFont1', sans-serif;
+    letter-spacing: 5px;
+    padding-left: 20px;
+    border-radius:0px 20px 20px 0px ;
+    text-align: justify;
+}
+#Menu .content7 .Ccontent{
+    padding: 20px;
+    display: flex;
+}
+#Menu .content7 img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;;
+}
+#Menu .content7 p{
+    font-family: 'myFont1', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+#Menu .content7 button{
+    border-radius: 0px 3px 3px 0px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: 'myFont1', sans-serif;
+}
+#Menu .menu_icon{
+    margin: 10px;
+    color: B50606;
 }
 ::-webkit-scrollbar{
     width: 10px;
