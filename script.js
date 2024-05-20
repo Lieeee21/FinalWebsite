@@ -1,11 +1,4 @@
-var btnContainer = document.getElementById("navBar");
-var btns = btnContainer.getElementsByClassName("b1");
+function toggle(){
+    window.open("http://127.0.0.1:5500/menu.html", "_self")
+}
 
-for(var i = 0; i < btns.length; i++){
-    btns[i].addEventListener('click', function () {
-        var current = document.getElementsByClassName("active");
-        current[0].className = current [0].className.replace("active");
-        this.className += " active";
-    })
-
-    }
