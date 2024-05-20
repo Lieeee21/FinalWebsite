@@ -152,7 +152,15 @@ a:nth-child(5){
 .input p{
     color: white;
 }
-
+.order .order_main #phone, #gmail{
+    outline: 0;
+}
+.order .order_main #phone:valid, #gmail:valid{
+    border-color: green;
+}
+.order .order_main #phone:focus:invalid, #gmail:focus:invalid{
+    border-color: red;
+}
 .order .order_main{
     display: flex;
     align-items: center;
