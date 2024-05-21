@@ -13,6 +13,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
 #home{
     height: 100vh;
     background-image: url(assests/bg.jpg);
